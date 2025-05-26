@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.let{
+    color: aquamarine;
+    font-style: italic;
+    text-decoration: dotted;}
+
+  .dot{ font: weight 500px;
+    font-size: xx-large;
+    font-style: inherit;
+    color: rgb(121, 10, 10); 
+    margin: auto; 
+    text-align: center;
+    padding: 20px;
+  }
+
+  .diff{
+     display: flex; 
+     flex-direction: row;
+     position: sticky;
+     list-style: none; 
+     justify-content: space-around;
+     padding-bottom: 20px;
+
+
+ }
+
+     
+ .tint{
+        background-color: rgb(33, 218, 110);
+        padding-bottom: 20px;
+
+
+ }
+
+
+
+
+
+
+
+.comms{
+border-style: solid;
+border-width: 3px;
+border-radius: 25px;
+border-color: rgb(8, 240, 116);
+box-shadow: 10px 10px 10px 10px; 
+padding: 20px; 
+background-color: blanchedalmond;
+margin-top: 50px;  
+
+}
+
+.L{
+color: rgb(92, 53, 128);
+font-size: x-large; 
+font-display: 20px;
+margin: auto; 
+text-align: center;
+
+}
+
+.B{ color: blue; 
+    color: rgb(131, 27, 27);
+    font-weight: 300;
+    font-size: larger; 
+    font-style: italic;
+ 
+
+}
+
+.W{ color: brown; 
+    font-style: oblique; 
+    
+    font-weight: 300;
+    padding-bottom: 70px;
+
+
+}
+
+.page{
+   border-style: solid; 
+   border-width: 5px; 
+   border-color: blueviolet; border-radius: 25px;
+   box-shadow:10px 10px 10px; 
+   padding: 40px;
+   margin-top: 55px; 
+   background-color: blanchedalmond;
+
+}
+
+.A{ display: block;
+    margin: auto; 
+    text-align: center; margin-top:20px ; 
+    padding: 15px;
+    border-radius: 10px; width: 200px; 
+    background-color: brown;
+    cursor: pointer; 
+    transition: background-color 1s; 
+
+
+}
+.A:hover{ background-color: rgb(38, 151, 9);
+     color: blue; 
+     
+    
+
+}
+
+.T{ 
+    color: rgb(28, 196, 140); 
+    font-size: x-large; 
+    font-display: 20px; 
+    margin: auto; 
+    text-align: center;
+    position: relative; 
+    left: 200px;
+
+
+
+
+}
+
+.R{ font-size: larger; 
+    font-style: italic; 
+    color: rgb(131, 27, 27);
+   font-weight: 300;
+
+}
+
+.box1{
+    position: absolute;
+    color: rgba(15, 7, 22, 0.938);
+    background-color: brown;
+    padding: 20px; 
+    margin-left: 50px; 
+    z-index: 2;
+
+
+}
+
+.box3{
+      position: absolute;
+      color: black;
+      background-color: rgb(55, 55, 179);
+      padding-right:20px ;
+      margin: 50px; z-index: index 2;
+
+
+}

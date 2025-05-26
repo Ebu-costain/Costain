@@ -1,0 +1,36 @@
+ 
+
+
+  *{ box-sizing: border-box;
+     padding: 0; 
+     margin: 0; }
+
+ 
+ body {               
+       display: flex;
+       align-items: center;
+       height: 100vh;
+       background-color: #f0f0f0;
+}    
+
+
+.box { width: 100px;  
+      height: 100px;
+      background-color: #007bff;
+      transition: transform  0.10s ease, opacity 0.10s ease; 
+      position: absolute;}
+
+
+  .box:hover {  transform : translate(50px, 50px) rotate(360deg); }
+ 
+ 
+ 
+    img { width: 170px;
+              height: auto; 
+              transition: all 5.5s  ease-in-out;
+              border-radius: 100%;
+              }
+
+
+      img:hover{  transform: translate(100vw) rotate(4000deg) ;
+                   background-image: -moz-linear-gradient(blue and yellow);}    
